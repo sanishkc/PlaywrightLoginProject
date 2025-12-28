@@ -13,11 +13,15 @@ public class Base {
     public void setUp() {
         playwright = Playwright.create();
 
-        browser = playwright.chromium().launch(
-                new BrowserType.LaunchOptions()
-                        .setHeadless(Boolean.parseBoolean(
-                                ConfigReader.get("headless")))
+        // Detect if running in CI
+        boolean isCi = System.getenv("CI") != null;
+
+        // Launch browser
+        browser = playwright.chromium().launch(new BrowserType.LaunchOptions()
+            .setHeadless(isCi) // headless=true on CI, headless=false locally
         );
+        
+        System.out.println("Running headless? " + isCi);
 
         context = browser.newContext();
         page = context.newPage();
