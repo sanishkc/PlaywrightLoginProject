@@ -1,6 +1,4 @@
-**Playwright Login Automation Framework**
-
-[![Playwright Maven Tests](https://github.com/sanishkc/PlaywrightLoginProject/actions/workflows/maven-tests.yml/badge.svg)](https://github.com/sanishkc/PlaywrightLoginProject/actions/workflows/maven-tests.yml)
+**Playwright Login Automation Framework**  [![Playwright Maven Tests](https://github.com/sanishkc/PlaywrightLoginProject/actions/workflows/maven-tests.yml/badge.svg)](https://github.com/sanishkc/PlaywrightLoginProject/actions/workflows/maven-tests.yml)
 
 **Overview**
 This repository contains a UI test automation framework built using Playwright to automate and validate login functionality. 
