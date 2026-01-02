@@ -1,4 +1,5 @@
 **Playwright Login Automation Framework**
+
 [![Playwright Maven Tests](https://github.com/sanishkc/PlaywrightLoginProject/actions/workflows/maven-tests.yml/badge.svg)](https://github.com/sanishkc/PlaywrightLoginProject/actions/workflows/maven-tests.yml)
 
 **Overview**
