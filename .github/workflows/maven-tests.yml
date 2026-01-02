@@ -1,4 +1,4 @@
-name: Playwright Maven Tests
+name: Playwright Login Tests
 
 on:
   push:
