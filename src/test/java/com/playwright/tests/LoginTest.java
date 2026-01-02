@@ -47,15 +47,10 @@ public class LoginTest extends Base {
         );
 
         // Validate error message for invalid login
-		/*
-		 * Assert.assertTrue(
-		 * loginPage.getMessage().contains("Your username is invalid"),
-		 * "Invalid login error message not displayed" );
-		 */
-        Assert.assertTrue(
-                homePage.isLogoutVisible(),
-                "Logout link not visible. Login may have failed."
-        );
+		
+		  Assert.assertTrue(
+		  loginPage.getMessage().contains("Your username is invalid"),
+		  "Invalid login error message not displayed" );
     }
 
     /**
